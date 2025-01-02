@@ -1,0 +1,104 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #0f172a;
+  color: #94a3b8;
+  font-size: 16px;
+  line-height: 1.5;
+  tab-size: 4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+p {
+  filter: brightness(1.2);
+}
+
+a {
+  &.text-bold {
+    font-weight: 700;
+  }
+
+  &.cursor-pointer {
+    cursor: pointer;
+  }
+
+  color: #f1f1f1;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #fafafa;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./fonts/inter.ttf);
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.text-h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #fafafa;
+}
+
+.text-h6 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  letter-spacing: -0.025em;
+  color: #fafafa;
+}
+
+.text-geome7ric {
+  color: #00ee90;
+  -webkit-font-smoothing: antialiased;
+}
+
+.element.style {
+  padding-left: 100px;
+}
+
+.q-btn:hover {
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  color: #ffdf6c;
+}
+
+.max3lines {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  transition: color 0.5s;
+}
+
+:target::before {
+  content: "";
+  display: block;
+  height: 96px;
+  margin-top: -96px;
+  visibility: hidden;
+}
+
+.custom-arrow {
+  transform: rotate(-45deg);
+  transition: all 0.1s;
+  color: #d1d1d1;
+}

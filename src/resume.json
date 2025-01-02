@@ -1,0 +1,52 @@
+{
+  "basics": {
+    "name": "John Doe",
+    "label": "Software Developer",
+    "email": "johndoe@example.com",
+    "phone": "(555) 123-4567",
+    "url": "https://johndoe.dev",
+    "summary": "+5 years of experience in software development, focusing on delivering scalable and efficient solutions to complex problems.",
+    "about": "<p>In 2010, I began my journey into software development, driven by curiosity and a passion for problem-solving. By 2015, I had launched my first project: a scheduling tool for a local business. Since then, I've collaborated with various industries, including education, healthcare, e-commerce, and logistics, delivering innovative solutions tailored to each unique challenge.</p><p>My expertise ranges from crafting intuitive frontend designs to developing robust backend systems. Currently, I focus on full-stack development, excelling in building scalable and maintainable applications. Noteworthy milestones include spearheading a digital transformation initiative for a mid-sized company and mentoring junior developers to foster team growth and technical excellence.</p><p>When I’m not coding, I enjoy exploring new hiking trails, experimenting with photography, or attending community hackathons. I also actively contribute to open-source projects and continuously seek opportunities to learn and grow in the ever-evolving tech landscape.</p>",
+    "profiles": [
+      {
+        "icon": "fab fa-github",
+        "url": "https://github.com/johndoe"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "url": "https://www.linkedin.com/in/johndoe/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "TechCorp",
+      "position": "Senior Software Engineer",
+      "url": "https://techcorp.com",
+      "startDate": "01-2020",
+      "endDate": "12-2024",
+      "summary": "Led the backend team, optimizing system performance and ensuring high availability for enterprise applications. Collaborated with stakeholders to align technical goals with business objectives.",
+      "highlights": [
+        "Node.js",
+        "Express",
+        "TypeScript",
+        "Python",
+        "PostgreSQL",
+        "AWS",
+        "Docker",
+        "CI/CD",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "CodeStudio",
+      "position": "Fullstack Developer",
+      "url": "https://codestudio.com",
+      "startDate": "06-2018",
+      "endDate": "12-2019",
+      "summary": "Developed and maintained web applications, focusing on user experience and system reliability. Worked closely with designers and QA teams to ensure seamless product launches.",
+      "highlights": ["React", "Redux", "JavaScript", "Node.js", "MongoDB"]
+    }
+  ],
+  "footer": "<p>Based on the design of <a href=\"https://brittanychiang.com\" target=\"_blank\" class=\"text-bold cursor-pointer link\" clickable>Brittany Chiang</a>, this SPA is built with the <a href=\"https://quasar.dev\" target=\"_blank\" class=\"text-bold cursor-pointer link\" clickable>Quasar Framework</a>. All text is set in the <a href=\"https://rsms.me/inter/\" target=\"_blank\" class=\"text-bold cursor-pointer link\" clickable>Inter</a> typeface.</p>"
+}
